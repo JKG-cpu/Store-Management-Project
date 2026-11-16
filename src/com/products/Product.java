@@ -24,4 +24,8 @@ public class Product {
   public int getCost() {
     return this.cost;
   }
+
+  public String toString() {
+    return name + " / " + productType;
+  }
 }
